@@ -27,11 +27,11 @@ int filtro1(int ingresso){
 }
 
 Analog button0(A0, 9, 1);
-Analog button1(A1, 10, 1);
+Analog button1(A2, 12, 1);
 
 void setup() {
   button0.map(filtro0);
-  button0.map(filtro1);
+  button1.map(filtro1);
   }
 
 void loop() {
